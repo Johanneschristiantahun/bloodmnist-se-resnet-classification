@@ -1,0 +1,4 @@
+Model,Params,Accuracy (%),Macro-F1 (%),Avg Train Time (s)
+Baseline_CNN,"102,248",93.70 ± 0.34,93.00 ± 0.39,44.6 ± 5.9
+Method_A_ResNet18,"11,172,936",96.80 ± 0.12,96.52 ± 0.19,159.2 ± 1.3
+Method_B_SE_ResNet18,"11,261,000",97.23 ± 0.14,97.13 ± 0.14,225.0 ± 2.6

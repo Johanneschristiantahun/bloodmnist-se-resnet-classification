@@ -1,0 +1,48 @@
+{
+    "dataset_name": "BloodMNIST (MedMNIST v2)",
+    "source": "Acevedo et al. (2020) & Yang et al. (2023)",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "task": "Multi-class peripheral blood cell image classification",
+    "input_resolution": [
+        3,
+        28,
+        28
+    ],
+    "num_classes": 8,
+    "class_labels": {
+        "0": "Basophil",
+        "1": "Eosinophil",
+        "2": "Erythroblast",
+        "3": "Immature Granulocyte",
+        "4": "Lymphocyte",
+        "5": "Monocyte",
+        "6": "Neutrophil",
+        "7": "Platelet"
+    },
+    "official_splits": {
+        "train": 11959,
+        "val": 1712,
+        "test": 3421,
+        "total": 17092
+    },
+    "leakage_verification": {
+        "patient_level_separation": true,
+        "near_duplicate_overlap": 0,
+        "test_split_held_out": true
+    },
+    "experimental_protocol": {
+        "random_seeds": [
+            42,
+            123,
+            999
+        ],
+        "epochs": 15,
+        "batch_size": 64,
+        "optimizer": "AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "scheduler": "CosineAnnealingLR (T_max=15, eta_min=1e-6)",
+        "selection_metric": "Validation Macro-F1",
+        "device": "NVIDIA Tesla T4 GPU (Google Colab)"
+    }
+}

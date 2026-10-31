@@ -1,0 +1,9 @@
+Class ID,Class Name,Train Count,Val Count,Test Count,Total,Ratio (%)
+0,basophil,852,122,244,1218,7.13
+1,eosinophil,2181,312,624,3117,18.24
+2,erythroblast,1085,155,311,1551,9.07
+3,"immature granulocytes(myelocytes, metamyelocytes and promyelocytes)",2026,290,579,2895,16.94
+4,lymphocyte,849,122,243,1214,7.1
+5,monocyte,993,143,284,1420,8.31
+6,neutrophil,2330,333,666,3329,19.48
+7,platelet,1643,235,470,2348,13.74
