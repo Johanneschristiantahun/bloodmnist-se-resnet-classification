@@ -12,8 +12,8 @@
 | Member Name | Student ID (NIM) | Email | Department / Program | Role & Core Contributions |
 | :--- | :---: | :--- | :--- | :--- |
 | **Aldrich Taqi Marvel** | `01881250022` | `01881250022@student.uph.edu` | Artificial Intelligence | Data Pipeline, Baseline CNN Architecture, Parameter Progression |
-| **Darren Christian Rapang** | `01881250021` | `01881250021@student.uph.edu` | Informatics | Pretrained ResNet-18 Transfer Learning (Method A), Evaluation Metrics |
-| **Johannes Christian Tahun** | `01881250050` | `01881250050@student.uph.edu` | Informatics | Squeeze-and-Excitation Attention (Method B), Multi-Seed Validation, Paper Lead |
+| **Darren Christian Rapang** | `01881250021` | `01881250021@student.uph.edu` | Artificial Intelligence | Pretrained ResNet-18 Transfer Learning (Method A), Evaluation Metrics |
+| **Johannes Christian Tahun** | `01881250050` | `01881250050@student.uph.edu` | Artificial Intelligence | Squeeze-and-Excitation Attention (Method B), Multi-Seed Validation, Paper Lead |
 
 ---
 
